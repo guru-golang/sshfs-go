@@ -16,8 +16,8 @@ package cmd
 
 import (
 	"errors"
+	"github.com/guru-golang/sshfs-go/fs"
 	"github.com/sirupsen/logrus"
-	"github.com/soopsio/sshfs-go/fs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"os"

@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/soopsio/sshfs-go/cmd"
+import "github.com/guru-golang/sshfs-go/cmd"
 
 func main() {
 	cmd.Execute()

@@ -1,6 +1,6 @@
 # SSHFS
 
-[![Build Status](https://travis-ci.org/soopsio/sshfs.svg?branch=master)](https://travis-ci.org/soopsio/sshfs)
+[![Build Status](https://travis-ci.org/guru-golang/sshfs.svg?branch=master)](https://travis-ci.org/guru-golang/sshfs)
 
 SSHFS mounts arbitrary [sftp](https://github.com/pkg/sftp) prefixes in a FUSE
 filesystem. It also provides a Docker volume plugin to the do the same for your
@@ -22,8 +22,8 @@ This project is in early development and has not reached 1.0. You will have to
 build the binary yourself:
 
 ```shell
-go get github.com/soopsio/sshfs-go
-env GOOS=linux go build github.com/soopsio/sshfs-go
+go get github.com/guru-golang/sshfs-go
+env GOOS=linux go build github.com/guru-golang/sshfs-go
 ```
 
 # Usage

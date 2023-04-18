@@ -19,9 +19,9 @@ import (
 	"os"
 
 	"github.com/docker/go-plugins-helpers/volume"
+	"github.com/guru-golang/sshfs-go/docker"
+	"github.com/guru-golang/sshfs-go/fs"
 	"github.com/sirupsen/logrus"
-	"github.com/soopsio/sshfs-go/docker"
-	"github.com/soopsio/sshfs-go/fs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
